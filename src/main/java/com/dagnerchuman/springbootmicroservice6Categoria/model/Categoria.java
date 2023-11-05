@@ -17,6 +17,9 @@ public class Categoria {
     @Column(name = "nombre", length = 50, nullable = false)
     private String nombre;
 
+    @Column(name="foto", length = 1200, nullable = true )
+    private String picture;
+
     @Column(name = "negocio_id", nullable = false)
     private Long negocioId;
 
